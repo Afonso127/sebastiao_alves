@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(189, 168, 125);
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.caixa{
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 30%;
+    border-radius: 20px;
+    border: 2px solid rgb(108, 35, 35);
+    margin: 70px auto;
+    padding: 20px 0px;
+    transition-duration: 1s;
+}
+
+#caixa1{
+    width: 80%; 
+    padding: 0px 30px;
+}
+
+.in1{
+    border: 1px solid black;
+    width: 150px;
+    height: 17px;
+}
+
+.in2{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(177, 154, 132);
+}
+
+.in1:hover{
+    border: 1px solid rgb(155, 46, 46);
+  
+}
+
+.caixa:hover{
+    background-color: rgb(227, 218, 188);
+
+}
+
+
+
+/* table{
+    margin: auto;
+    width: 70%;
+   
+} */
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    color: #212529;
+    font-size: 14px;
+    text-align: center;
+}
+  
+th, td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+  
+th {
+    font-weight: bold;
+    background-color: #dee2e6;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+  
+td {
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+ 
+}
+  
+tr:hover td {
+    background-color: #d9dda7;
+   
+}
+  
+
+.erro{
+    color:  rgb(228, 57, 57); 
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.nav > a{
+    border: 1px solid black;
+    width: 130px;
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(195, 158, 113);
+}
+
+.nav > a:hover{
+    background-color: rgb(188, 137, 75);
+  
+}
+
+.nav a.active {
+    background-color: rgb(188, 137, 75);
+}
+  
+
+
+hr{
+    border: 1px solid rgb(150, 117, 69);
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    background: linear-gradient(90deg, #d4b24a, #d4d39d);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    margin-bottom: 15px;
+      
+}
+
+button:hover{
+    background: linear-gradient(90deg, #a5bf5d, #d4d39d);
+}
+
+img{
+    height: 150px;
+    width: 160px
+}
+
+.inbanner > input{
+    width: 700px;
+    height: 30px;
+}
+
+.inbanner > .bot{
+    height: 30px;
+    width: 100px;
+}
+
+.subt{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        border: none;
+        padding: 0px 5px;
+       
+}
+
+#botesp{
+    width: 200px;
+    height: 50px;
+   
+}
+
+.texto{
+    width: 70%;
+    margin: auto;
+    border: 5px solid rgb(223, 147, 76);
+    text-align: justify;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+}
+
+#p{
+    text-decoration: underline;
+    
+}
+
+.input{
+    width: 200px;
+    height: 30px;
+}
+
